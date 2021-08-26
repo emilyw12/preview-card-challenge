@@ -1,0 +1,74 @@
+body {
+	background-color: hsl(233, 47%, 7%);
+	font-size: 15px;
+	margin: auto;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1, h2 {
+	font-family: 'Inter', sans-serif;
+	color:  hsl(0, 0%, 100%);
+	font-weight: 700;
+}
+
+#card {
+	background-color: hsl(244, 38%, 16%);
+	display: flex;
+	border-radius: 10px;
+	width: 75%;
+	max-width: 1000px;
+	box-shadow: 10px black;
+	/*max-width: 2000px;*/
+}
+
+#card-info {
+	width: 50%;
+	/*flex: 1;*/
+	padding: 6%;
+	box-sizing: border-box;
+}
+
+#card-img {
+	background-image: url("images/image-header-desktop.jpg");
+	background-color: hsl(277, 64%, 61%);
+	background-blend-mode: multiply;
+	background-size: cover;
+	/*flex: 1;*/
+	width: 50%;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#card-stats {
+	display: flex;
+	/*justify-content: space-between;*/
+	/*border: 5px solid red;*/
+}
+
+.stat {
+	margin-right: 8%;
+}
+
+#card-info > p {
+	font-family: 'Inter', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 50px;
+}
+
+.stat > p {
+	font-family: 'Lexend Deca', sans-serif;
+	color: hsla(0, 0%, 100%, 0.6);
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.stat > h2 {
+	margin-bottom: 0;
+}
+
+
