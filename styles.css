@@ -16,26 +16,19 @@ h1, h2 {
 #card {
 	background-color: hsl(244, 38%, 16%);
 	border-radius: 10px;
-	width: 85%;
 	box-shadow: 10px black;
 	overflow: hidden;
-	max-width: 1000px;
+	max-width: 350px;
 }
 
 #card-img-container {
 	background-color: hsl(277, 64%, 61%);
 	height: 225px;
-	/*width: 100%;*/
 	overflow: hidden;
 }
 
 #card-img-container img {
-/*	width: auto;
-	height: auto;*/
-	width: 100%;
-	min-height: 100%;
-/*	min-height: 100px;
-	min-width: 100%;*/
+	object-fit: cover;
 	mix-blend-mode: multiply;
 }
 
@@ -76,6 +69,7 @@ h1, h2 {
 		display: flex;
 		flex-direction: row-reverse;
 		height: 45%;
+		max-width: 1000px;
 	}
 
 	#card-stats {
@@ -99,5 +93,7 @@ h1, h2 {
 		flex: 1 1 50%;
 		height: 100%;
 		min-height: 100%;
+		min-width: 50%;
 	}
+
 }
