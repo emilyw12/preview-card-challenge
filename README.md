@@ -1,4 +1,4 @@
-# preview-card-challenge# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Stats preview card component solution
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -6,15 +6,12 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,8 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ## My process
 
@@ -76,7 +72,6 @@ Below is a snippet illustrating this concept. I initially had set ```height: 100
 
 This challenge was a good exercise in practicing layout and helping me discover the gaps in knowledge. In future projects I will continue practicing getting more comfortable with layout and spacing, and particularly with creating responsive designs.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
