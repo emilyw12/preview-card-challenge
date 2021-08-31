@@ -2,18 +2,18 @@ body {
 	background-color: hsl(233, 47%, 7%);
 	font-size: 15px;
 	display: flex;
-	height: 100vh;
+	min-height: 100vh;
 	justify-content: center;
 	align-items: center;
 }
 
-h1, h2 {
+h1, .stat-number {
 	font-family: 'Inter', sans-serif;
 	color:  hsl(0, 0%, 100%);
 	font-weight: 700;
 }
 
-#card {
+.card {
 	background-color: hsl(244, 38%, 16%);
 	border-radius: 10px;
 	box-shadow: 10px black;
@@ -21,30 +21,31 @@ h1, h2 {
 	max-width: 350px;
 }
 
-#card-img-container {
+.card-img-container {
 	background-color: hsl(277, 64%, 61%);
-	height: 225px;
+	height: 18em;
 	overflow: hidden;
 }
 
-#card-img-container img {
-	object-fit: cover;
+.card-img-container img {
 	mix-blend-mode: multiply;
+	display: block;
+	height: 100%;
 }
 
-#card-text {
+.card-text {
 	text-align: center;
 	padding: 1.25em;
 }
 
-#card-text > p {
+.card-text > p {
 	font-family: 'Inter', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 400;
 	line-height: 175%;
 }
 
-#card-stats {
+.stats-container {
 	display: flex;
 	flex-direction: column;
 }
@@ -53,26 +54,27 @@ h1, h2 {
 	margin: .1em;
 }
 
-.stat > p {
+.stat-description {
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.6);
 	font-weight: 400;
 	margin-top: 10px;
 }
 
-.stat > h2 {
+.stat-number {
+	font-size: 1.5rem;
 	margin-bottom: 0;
 }
 
 @media screen and (min-width:  550px) {
-	#card {
+	.card {
 		display: flex;
 		flex-direction: row-reverse;
-		height: 45%;
 		max-width: 1000px;
+		height: 28em;
 	}
 
-	#card-stats {
+	.stats-container {
 		flex-direction: row;
 		margin-top: 40px;
 	}
@@ -81,16 +83,18 @@ h1, h2 {
 		margin-right: 30px;
 	}
 
-	#card-text {
+	.card-child {
 		flex: 1 1 50%;
+	}
+
+	.card-text {
 		text-align: left;
 		padding: 3em;
 		padding-right: 6em;
 		box-sizing: border-box;
 	}
 
-	#card-img-container {
-		flex: 1 1 50%;
+	.card-img-container {
 		height: 100%;
 		min-height: 100%;
 		min-width: 50%;

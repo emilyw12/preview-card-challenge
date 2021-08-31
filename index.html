@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link href="styles.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca:400">
@@ -17,37 +16,37 @@
 </head>
 <body>
 
-  <div id="card">
+  <main>
+    <div id="card" class="card">
 
-    <div id="card-img-container">
-      <img src="images/image-header-desktop.jpg" alt="Employees in an office sitting at a table">
-    </div>
+      <div class="card-child card-img-container">
+        <img srcset="images/image-header-mobile.jpg 654w, images/image-header-desktop 540w"
+        sizes="(max-width:549px) 654px, 540px" 
+        src="images/image-header-desktop.jpg" 
+        alt="Employees in an office sitting at a table">
+      </div>
 
-    <div id="card-text">
-      <h1>Get <span style="color:hsl(277, 64%, 61%);">insights</span> that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <div class="card-child card-text">
+        <h1>Get <span style="color:hsl(277, 64%, 61%);">insights</span> that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 
-      <div id="card-stats">
-        <div class="stat">
-          <h2>10k+</h2>
-          <p>COMPANIES</p>
-        </div>
-        <div class="stat">
-          <h2>314</h2>
-          <p>TEMPLATES</p>
-        </div>
-        <div class="stat">
-          <h2>12M+</h2>
-          <p>QUERIES</p>
+        <div class="stats-container">
+          <div class="stat">
+            <p class="stat-number">10k+</p>
+            <p class="stat-description">COMPANIES</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">314</p>
+            <p class="stat-description">TEMPLATES</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">12M+</p>
+            <p class="stat-description">QUERIES</p>
+          </div>
         </div>
       </div>
     </div>
+  </main>
 
-  </div>
-
-<!--   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Emily Wu</a>.
-  </div> -->
 </body>
 </html>
