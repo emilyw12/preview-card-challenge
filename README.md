@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://emilyw12.github.io/preview-card-challenge/)
 
 ## My process
 
