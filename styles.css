@@ -84,7 +84,7 @@ h1, .stat-number {
 	}
 
 	.card-child {
-		flex: 1 1 50%;
+		flex-basis: 50%;
 	}
 
 	.card-text {
@@ -97,7 +97,6 @@ h1, .stat-number {
 	.card-img-container {
 		height: 100%;
 		min-height: 100%;
-		min-width: 50%;
 	}
 
 }
